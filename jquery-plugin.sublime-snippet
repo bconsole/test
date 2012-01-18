@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+jQuery.fn.extend({
+	myFunction: function () {
+		//		jqplugin => Tab
+		// 		this is called a 'method' and is called on an element. 
+		// 		jquery('.elemtent').myFunction()
+		
+		return this.each(function(){
+			var current_elem = jquery(this);
+		});
+	}				
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>jqplugin</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<description>jQuery plugin template</description>
+</snippet>

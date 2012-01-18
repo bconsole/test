@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+jQuery.extend({
+	myFunction: function (){
+		//		jqglobal => Tab
+		// 		this will add a global function that that can be accessed via the dollar sign does not work on elements 
+		//		e.g. jquery.myFunction() 
+	}				
+});	
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>jqglobal</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<description>jQuery global function</description>
+</snippet>
